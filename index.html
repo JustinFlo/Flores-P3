@@ -37,6 +37,9 @@
 	        <div class="col-md-6" v-for="(movie, index) in movies">
 	            <div class="thumbnail">
 <!-- M2 Added all the variables that help display all the information on the html,  from the posters to the websites. -->
+
+<!-- M3 Added the loop that displays all the movies with the following two lines of code added -->
+
 						<img class="poster img-fluid" :src="movie.posters[movie.posterindex]"/>
 						<div class="imageInfo">Poster {{movie.posterindex + 1}} 0f {{movie.posters.length}}</div>
 
