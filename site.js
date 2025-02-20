@@ -36,11 +36,16 @@ const vue_app = Vue.createApp({
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
             title: "IMDB + Justin's Top 8 Movies",
             owner: "Justin",
-            github: "https://justinflo.github.io/Flores-P3/"
+            github: "https://github.com/JustinFlo/Flores-P3",
+            
       }
     },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
+            getMonthText(dateArray){
+                  
+            }
+
       }
 })
 
