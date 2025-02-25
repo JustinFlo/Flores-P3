@@ -40,13 +40,13 @@
 
 <!-- M3 Added the loop that displays all the movies with the following two lines of code added -->
 
-						<img class="poster img-fluid" :src="movie.posters[movie.posterindex]"/>
+						<img class="poster img-fluid" :src="movie.posters[movie.posterindex]" @click="posterClick(index)"/>
 						<div class="imageInfo">Poster {{movie.posterindex + 1}} 0f {{movie.posters.length}}</div>
 
 						<p class="title">{{movie.title}} ({{movie.country}})</p>
 						<p class="score"><i class="bi bi-star" aria-hidden="true"></i> {{movie.iscore}} </p>
-						<p class="runtime">Runtime: {{movie.runtime}}</p>
-						<p class="released">Released: {{movie.released}} | Rated: {{movie.rating}}</p>
+						<p class="runtime">Runtime: {{timeText (movie.runtime)}}</p>
+						<p class="released">Released: {{getMonthText (movie.released)}} | Rated: {{movie.rating}}</p>
 						<p class="websites" >Websites: <a href="{{movie.imdb}}"> imdb </a> | <a href="{{movie.website}}">website</a></p>
 
 			            <div class="social">

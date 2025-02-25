@@ -34,6 +34,7 @@ const vue_app = Vue.createApp({
             // This holds your movies.json data.
             movies: [],
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
+            months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
             title: "IMDB + Justin's Top 8 Movies",
             owner: "Justin",
             github: "https://github.com/JustinFlo/Flores-P3",
@@ -42,9 +43,25 @@ const vue_app = Vue.createApp({
     },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
-            getMonthText(dateArray){
-                  
+            /* M4 Done: Created all methods that displayed the release of the movie in english date, allowed to click posters to reveal others, and displayed the time*/
+           getMonthText(dateArray){
+                  var year = dateArray[0];
+                  var month = this.months[dateArray[1] - 1];
+                  var day = dateArray[2];
+                  return month + " " + day + ", " + year;
+            },
+            posterClick(index){
+                  const movie = this.movies[index];
+                  movie.posterindex = (movie.posterindex + 1) % movie.posters.length;
+            },
+            timeText(minutes){
+                  const hours = Math.trunc(minutes / 60);
+                  const mins = minutes % 60;
+                  return `${hours}h ${mins}m`;
             }
+  
+
+          
 
       }
 })
