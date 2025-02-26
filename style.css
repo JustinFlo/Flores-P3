@@ -91,6 +91,8 @@ body {
 }
 
 /* This shapes your like and dislike buttons */
+/* M6 Completed: Added in different color schemes for the CSS, for the like and dislikes buttons as well as hover effects*/
+
 .likes{
     cursor: pointer;
     display: inline-block;
