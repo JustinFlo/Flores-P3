@@ -8,7 +8,7 @@
             "country": "USA",
             "posters": ["img/D&D1.png", "img/D&D2.JPG"],
             "imdb": "https://www.imdb.com/title/tt2906216/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_dung",
-            "website": "https://www.facebook.com/ShawshankRedemptionFilm",
+            "website": "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons:_Honor_Among_Thieves",
             "likes": 4928,
             "dislikes": 1565,
             "posterindex": 0
@@ -22,7 +22,7 @@
             "country": "United States/Japan",
             "posters": ["img/Bt1.jpg", "img/Bt2.jpg"],
             "imdb": "https://www.imdb.com/title/tt12593682/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_bul",
-            "website": "https://www.facebook.com/thegodfather",
+            "website": "https://en.wikipedia.org/wiki/Bullet_Train_(film)",
             "likes": 3945,
             "dislikes": 1290,
             "posterindex": 0
@@ -36,7 +36,7 @@
             "country": "USA",
             "posters": ["img/RPO1.jpg", "img/RPO2.jpg"],
             "imdb": "https://www.imdb.com/title/tt1677720/?ref_=nv_sr_srsg_3_tt_7_nm_1_in_0_q_ready",
-            "website": "https://www.facebook.com/thegodfather",
+            "website": "https://en.wikipedia.org/wiki/Ready_Player_One_(film)",
             "likes": 9278,
             "dislikes": 4530,
             "posterindex": 0
@@ -50,9 +50,66 @@
             "country": "USA/Germany",
             "posters": ["img/TH1.jpg", "img/Th2.jpg"],
             "imdb": "https://www.imdb.com/title/tt1119646/?ref_=nv_sr_srsg_6_tt_8_nm_0_in_0_q_the%2520han",
-            "website": "http://www.42entertainment.com/work/whysoserious",
+            "website": "https://www.bing.com/search?q=the+hangover&filters=ufn%3a%22The+Hangover+2009%22+sid%3a%221ecb9238-5276-28e5-2abe-397040c11383%22&asbe=LS&qs=MB&pq=the+hango&sc=12-9&cvid=E2652BBCEB9048988636A9F6CDEB0E91&FORM=QBRE&sp=1&ghc=1&lq=0",
             "likes": 45039,
             "dislikes": 12327,
+            "posterindex": 0
+      },
+      {
+            "title": "Free Guy",
+            "iscore": 7.1,
+            "rating": "PG-13",
+            "runtime": 95,
+            "released": [2021, 8, 13],
+            "country": "USA",
+            "posters": ["img/FG1.JPG", "img/FG2.JPG"],
+            "imdb": "https://www.imdb.com/title/tt6264654/?ref_=tt_mv_close",
+            "website": "https://en.wikipedia.org/wiki/Free_Guy",
+            "likes": 5039,
+            "dislikes": 2327,
+            "posterindex": 0
+      },
+      {
+            "title": "Fear Street Part One: 1994",
+            "iscore": 6.2,
+            "rating": "R",
+            "runtime": 107,
+            "released": [2021, 2, 7],
+            "country": "USA",
+            "posters": ["img/FS11.jpg", "img/FS12.jpg"],
+            "imdb": "https://www.imdb.com/title/tt6566576/?ref_=nv_sr_srsg_1_tt_8_nm_0_in_0_q_fear%2520s",
+            "website": "https://en.wikipedia.org/wiki/Fear_Street_Part_One:_1994",
+            "likes": 4929,
+            "dislikes": 2317,
+            "posterindex": 0
+      },
+      {
+            "title": "Fear Street Part Two: 1978",
+            "iscore": 6.7,
+            "rating": "R",
+            "runtime": 109,
+            "released": [2021, 9, 7],
+            "country": "USA",
+            "posters": ["img/FS21.jpg", "img/FS22.jpg"],
+            "imdb": "https://www.imdb.com/title/tt9701940/?ref_=tt_mlt_i_3",
+            "website": "https://en.wikipedia.org/wiki/Fear_Street_Part_Two:_1978y",
+            "likes": 9432,
+            "dislikes": 1023,
+            "posterindex": 0
+      },
+
+      {
+            "title": "Fear Street Part Three: 1666",
+            "iscore": 6.6,
+            "rating": "R",
+            "runtime": 114,
+            "released": [2021, 9, 7],
+            "country": "USA",
+            "posters": ["img/FS31.jpg", "img/FS32.jpg"],
+            "imdb": "https://www.imdb.com/title/tt9701942/?ref_=tt_mlt_i_1",
+            "website": "https://en.wikipedia.org/wiki/Fear_Street_Part_Three:_1666",
+            "likes": 7954,
+            "dislikes": 2302,
             "posterindex": 0
       },
       {
@@ -64,7 +121,7 @@
             "country": "USA",
             "posters": ["img/BF1.png", "img/BF2.png"],
             "imdb": "https://www.imdb.com/title/tt34799007/?ref_=tt_mv_close",
-            "website": "https://www.uphe.com/schindlers-list",
+            "website": "https://www.youtube.com/watch?v=mhbVUf3yyB0&t=1186s",
             "likes": 9999,
             "dislikes": 0,
             "posterindex": 0

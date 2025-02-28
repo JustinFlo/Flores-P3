@@ -47,8 +47,9 @@
 						<p class="score"><i class="bi bi-star" aria-hidden="true"></i> {{movie.iscore}} </p>
 						<p class="runtime">Runtime: {{timeText (movie.runtime)}}</p>
 						<p class="released">Released: {{getMonthText (movie.released)}} | Rated: {{movie.rating}}</p>
-						<p class="websites" >Websites: <a href="{{movie.imdb}}"> imdb </a> | <a href="{{movie.website}}">website</a></p>
+						<p class="websites" >Websites: <a :href="movie.imdb"> imdb </a> | <a :href="movie.website">website</a></p>
 <!-- M5 Likes, Dislikes, and Poster Buttons have click handlers that change the feature. Image info also displays the number of posters as well as the Poster # of # value-->
+<!-- M7 Switched out all movies with movies I have chosen, along with links and new posters-->
 
 			            <div class="social">
 			              <p class="likes" @click="movie.likes++"><i class="bi bi-hand-thumbs-up" aria-hidden="true"></i> {{ movie.likes }}</p>
